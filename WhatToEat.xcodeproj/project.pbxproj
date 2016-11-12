@@ -9,10 +9,6 @@
 /* Begin PBXBuildFile section */
 		4407EFAA1DD40B1500132743 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4407EFA91DD40B1500132743 /* MapKit.framework */; };
 		4407EFAD1DD40B5C00132743 /* IconLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4407EFAC1DD40B5C00132743 /* IconLabel.swift */; };
-		4407EFCA1DD45D5E00132743 /* v1API_structs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4407EFC61DD45D5E00132743 /* v1API_structs.swift */; };
-		4407EFCB1DD45D5E00132743 /* v1API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4407EFC71DD45D5E00132743 /* v1API.swift */; };
-		4407EFCC1DD45D5E00132743 /* v1API_parsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4407EFC81DD45D5E00132743 /* v1API_parsers.swift */; };
-		4407EFCF1DD45D6500132743 /* http.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4407EFCD1DD45D6500132743 /* http.swift */; };
 		4407EFD11DD4603700132743 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4407EFD01DD4603700132743 /* ResultViewController.swift */; };
 		44873DC01DD40A18007BBBD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44873DBF1DD40A18007BBBD3 /* AppDelegate.swift */; };
 		44873DC21DD40A18007BBBD3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44873DC11DD40A18007BBBD3 /* ViewController.swift */; };
@@ -23,6 +19,13 @@
 		448EEAA41DD4772F008B64BE /* UIView+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448EEAA31DD4772F008B64BE /* UIView+ext.swift */; };
 		44BB08C21DD4F5BB004E2069 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44BB08C11DD4F5BB004E2069 /* CardView.swift */; };
 		44D35909C4C354407EC2D107 /* Pods_WhatToEat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C67F53DBBDF1D6B3228BFB4 /* Pods_WhatToEat.framework */; };
+		A8BFEB1A1DD76072003BC840 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BFEB191DD76072003BC840 /* Cell.swift */; };
+		A8E41F551DD747EF0082AC9E /* v1API.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E41F521DD747EF0082AC9E /* v1API.swift */; };
+		A8E41F561DD747EF0082AC9E /* v1API_parsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E41F531DD747EF0082AC9E /* v1API_parsers.swift */; };
+		A8E41F571DD747EF0082AC9E /* v1API_structs.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E41F541DD747EF0082AC9E /* v1API_structs.swift */; };
+		A8E41F5A1DD748060082AC9E /* http.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E41F591DD748060082AC9E /* http.swift */; };
+		A8E41F5C1DD749990082AC9E /* CustomPointAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E41F5B1DD749990082AC9E /* CustomPointAnnotation.swift */; };
+		A8E41F5E1DD749F50082AC9E /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E41F5D1DD749F50082AC9E /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,10 +33,6 @@
 		4407EFA91DD40B1500132743 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		4407EFAC1DD40B5C00132743 /* IconLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconLabel.swift; sourceTree = "<group>"; };
 		4407EFC41DD45CD400132743 /* ShakeYourFoodAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ShakeYourFoodAPI.framework; path = "shakeYourFood/build/Debug-iphoneos/ShakeYourFoodAPI.framework"; sourceTree = "<group>"; };
-		4407EFC61DD45D5E00132743 /* v1API_structs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = v1API_structs.swift; path = api/v1API_structs.swift; sourceTree = "<group>"; };
-		4407EFC71DD45D5E00132743 /* v1API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = v1API.swift; path = api/v1API.swift; sourceTree = "<group>"; };
-		4407EFC81DD45D5E00132743 /* v1API_parsers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = v1API_parsers.swift; path = api/v1API_parsers.swift; sourceTree = "<group>"; };
-		4407EFCD1DD45D6500132743 /* http.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = http.swift; path = network/http.swift; sourceTree = "<group>"; };
 		4407EFD01DD4603700132743 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		44873DBC1DD40A18007BBBD3 /* WhatToEat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatToEat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44873DBF1DD40A18007BBBD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +46,13 @@
 		44BB08C11DD4F5BB004E2069 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		5C67F53DBBDF1D6B3228BFB4 /* Pods_WhatToEat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhatToEat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93796C0DB2A3A4EBD922B50B /* Pods-WhatToEat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatToEat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WhatToEat/Pods-WhatToEat.debug.xcconfig"; sourceTree = "<group>"; };
+		A8BFEB191DD76072003BC840 /* Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		A8E41F521DD747EF0082AC9E /* v1API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = v1API.swift; sourceTree = "<group>"; };
+		A8E41F531DD747EF0082AC9E /* v1API_parsers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = v1API_parsers.swift; sourceTree = "<group>"; };
+		A8E41F541DD747EF0082AC9E /* v1API_structs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = v1API_structs.swift; sourceTree = "<group>"; };
+		A8E41F591DD748060082AC9E /* http.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = http.swift; sourceTree = "<group>"; };
+		A8E41F5B1DD749990082AC9E /* CustomPointAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPointAnnotation.swift; sourceTree = "<group>"; };
+		A8E41F5D1DD749F50082AC9E /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,26 +79,6 @@
 			name = Components;
 			sourceTree = "<group>";
 		};
-		4407EFC91DD45D5E00132743 /* API */ = {
-			isa = PBXGroup;
-			children = (
-				4407EFC61DD45D5E00132743 /* v1API_structs.swift */,
-				4407EFC71DD45D5E00132743 /* v1API.swift */,
-				4407EFC81DD45D5E00132743 /* v1API_parsers.swift */,
-			);
-			name = API;
-			path = ../shakeYourFood/shakeYourFood;
-			sourceTree = "<group>";
-		};
-		4407EFCE1DD45D6500132743 /* Network */ = {
-			isa = PBXGroup;
-			children = (
-				4407EFCD1DD45D6500132743 /* http.swift */,
-			);
-			name = Network;
-			path = ../shakeYourFood/shakeYourFood;
-			sourceTree = "<group>";
-		};
 		44873DB31DD40A18007BBBD3 = {
 			isa = PBXGroup;
 			children = (
@@ -114,18 +100,40 @@
 		44873DBE1DD40A18007BBBD3 /* WhatToEat */ = {
 			isa = PBXGroup;
 			children = (
-				4407EFCE1DD45D6500132743 /* Network */,
-				4407EFC91DD45D5E00132743 /* API */,
+				A8E41F581DD748060082AC9E /* network */,
+				A8E41F511DD747EF0082AC9E /* api */,
 				4407EFAB1DD40B4F00132743 /* Components */,
 				44873DBF1DD40A18007BBBD3 /* AppDelegate.swift */,
 				44873DC11DD40A18007BBBD3 /* ViewController.swift */,
+				A8BFEB191DD76072003BC840 /* Cell.swift */,
+				A8E41F5D1DD749F50082AC9E /* MapViewController.swift */,
 				4407EFD01DD4603700132743 /* ResultViewController.swift */,
+				A8E41F5B1DD749990082AC9E /* CustomPointAnnotation.swift */,
 				44873DC31DD40A18007BBBD3 /* Main.storyboard */,
 				44873DC61DD40A18007BBBD3 /* Assets.xcassets */,
 				44873DC81DD40A18007BBBD3 /* LaunchScreen.storyboard */,
 				44873DCB1DD40A18007BBBD3 /* Info.plist */,
 			);
 			path = WhatToEat;
+			sourceTree = "<group>";
+		};
+		A8E41F511DD747EF0082AC9E /* api */ = {
+			isa = PBXGroup;
+			children = (
+				A8E41F521DD747EF0082AC9E /* v1API.swift */,
+				A8E41F531DD747EF0082AC9E /* v1API_parsers.swift */,
+				A8E41F541DD747EF0082AC9E /* v1API_structs.swift */,
+			);
+			name = api;
+			path = "../../shakeYourFood-master/shakeYourFood/api";
+			sourceTree = "<group>";
+		};
+		A8E41F581DD748060082AC9E /* network */ = {
+			isa = PBXGroup;
+			children = (
+				A8E41F591DD748060082AC9E /* http.swift */,
+			);
+			path = network;
 			sourceTree = "<group>";
 		};
 		B73691F6A5417694F07C31CA /* Pods */ = {
@@ -182,7 +190,6 @@
 				TargetAttributes = {
 					44873DBB1DD40A18007BBBD3 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = P92HHTP8SE;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.Maps.iOS = {
@@ -277,16 +284,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				448EEAA21DD47537008B64BE /* FlatButton.swift in Sources */,
+				A8E41F571DD747EF0082AC9E /* v1API_structs.swift in Sources */,
 				44873DC21DD40A18007BBBD3 /* ViewController.swift in Sources */,
+				A8E41F5A1DD748060082AC9E /* http.swift in Sources */,
+				A8E41F561DD747EF0082AC9E /* v1API_parsers.swift in Sources */,
 				44BB08C21DD4F5BB004E2069 /* CardView.swift in Sources */,
+				A8E41F5E1DD749F50082AC9E /* MapViewController.swift in Sources */,
 				44873DC01DD40A18007BBBD3 /* AppDelegate.swift in Sources */,
-				4407EFCC1DD45D5E00132743 /* v1API_parsers.swift in Sources */,
+				A8E41F551DD747EF0082AC9E /* v1API.swift in Sources */,
 				448EEAA41DD4772F008B64BE /* UIView+ext.swift in Sources */,
+				A8BFEB1A1DD76072003BC840 /* Cell.swift in Sources */,
 				4407EFD11DD4603700132743 /* ResultViewController.swift in Sources */,
-				4407EFCA1DD45D5E00132743 /* v1API_structs.swift in Sources */,
-				4407EFCF1DD45D6500132743 /* http.swift in Sources */,
+				A8E41F5C1DD749990082AC9E /* CustomPointAnnotation.swift in Sources */,
 				4407EFAD1DD40B5C00132743 /* IconLabel.swift in Sources */,
-				4407EFCB1DD45D5E00132743 /* v1API.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,7 +418,7 @@
 			baseConfigurationReference = 93796C0DB2A3A4EBD922B50B /* Pods-WhatToEat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = P92HHTP8SE;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = WhatToEat/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -424,7 +434,7 @@
 			baseConfigurationReference = 1ACC4EFD3DD7FDE3DA16F703 /* Pods-WhatToEat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = P92HHTP8SE;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = WhatToEat/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
