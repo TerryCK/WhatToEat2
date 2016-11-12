@@ -100,21 +100,37 @@
 		44873DBE1DD40A18007BBBD3 /* WhatToEat */ = {
 			isa = PBXGroup;
 			children = (
-				A8E41F581DD748060082AC9E /* network */,
-				A8E41F511DD747EF0082AC9E /* api */,
+				A8CA308F1DD76F2A008E7463 /* ShakeYourFood */,
 				4407EFAB1DD40B4F00132743 /* Components */,
 				44873DBF1DD40A18007BBBD3 /* AppDelegate.swift */,
 				44873DC11DD40A18007BBBD3 /* ViewController.swift */,
-				A8BFEB191DD76072003BC840 /* Cell.swift */,
-				A8E41F5D1DD749F50082AC9E /* MapViewController.swift */,
+				A8CA308E1DD76EFD008E7463 /* mapViewController */,
 				4407EFD01DD4603700132743 /* ResultViewController.swift */,
-				A8E41F5B1DD749990082AC9E /* CustomPointAnnotation.swift */,
 				44873DC31DD40A18007BBBD3 /* Main.storyboard */,
 				44873DC61DD40A18007BBBD3 /* Assets.xcassets */,
 				44873DC81DD40A18007BBBD3 /* LaunchScreen.storyboard */,
 				44873DCB1DD40A18007BBBD3 /* Info.plist */,
 			);
 			path = WhatToEat;
+			sourceTree = "<group>";
+		};
+		A8CA308E1DD76EFD008E7463 /* mapViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A8BFEB191DD76072003BC840 /* Cell.swift */,
+				A8E41F5D1DD749F50082AC9E /* MapViewController.swift */,
+				A8E41F5B1DD749990082AC9E /* CustomPointAnnotation.swift */,
+			);
+			name = mapViewController;
+			sourceTree = "<group>";
+		};
+		A8CA308F1DD76F2A008E7463 /* ShakeYourFood */ = {
+			isa = PBXGroup;
+			children = (
+				A8E41F581DD748060082AC9E /* network */,
+				A8E41F511DD747EF0082AC9E /* api */,
+			);
+			name = ShakeYourFood;
 			sourceTree = "<group>";
 		};
 		A8E41F511DD747EF0082AC9E /* api */ = {

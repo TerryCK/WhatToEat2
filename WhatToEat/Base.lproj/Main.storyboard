@@ -99,7 +99,7 @@
                                 <action selector="titleBtnPressed:" destination="tda-Q9-CSX" id="zFZ-rc-mK8"/>
                             </connections>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" title="shark" id="ZlJ-zs-hJh">
+                        <barButtonItem key="rightBarButtonItem" title="shake" id="ZlJ-zs-hJh">
                             <connections>
                                 <segue destination="BYZ-38-t0r" kind="show" id="0JC-G4-Ade"/>
                             </connections>
